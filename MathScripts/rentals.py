@@ -3,7 +3,9 @@ days_touring = 3
 van_cost = 250
 van_limit = 15
 
-vans_needed = round(tourists / van_limit + .5) 
+import math
+
+vans_needed = math.ceil(tourists / van_limit) 
 rent_cost = van_cost * days_touring
 charge_per_person = round(rent_cost / tourists + .005, 2)
 
