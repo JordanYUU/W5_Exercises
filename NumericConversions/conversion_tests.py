@@ -7,14 +7,15 @@ b = '55'
 c = "402 Stevens"
 d = 'Number 5 '
 
-# print(int(float(a)), type(a))
+# print(a, type(a)
+# SyntaxError: '(' was never closed
 
-a2 = int(float(a))
-b2 = float(b)
+a_int = int(float(a))
+b_float = float(b)
 
-print(a2, type(a2))
+print(a_int, type(a_int))
 
-print(b2, type(b2))
+print(b_float, type(b_float))
 
 a_stripped = a.strip
 print(a.strip())
@@ -27,4 +28,4 @@ print(d_sliced)
 # was removed. Just trust that it was though.
 
 # I was kinda confused on what this question
-# asked of me but I tried
+# asked of me but I tried w

@@ -398,3 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 lesson_10_22.py
 lesson_11_22.py
+tests.py
