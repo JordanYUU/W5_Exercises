@@ -24,8 +24,8 @@ d_stripped = d.strip()
 d_sliced = d_stripped[7:]
 print(d_sliced) 
 
-# You can't from the output that the space at the end
-# was removed. Just trust that it was though.
+# You can't tell from the output that the space at the end
+# was removed. Just trust that it was, however.
 
 # I was kinda confused on what this question
 # asked of me but I tried w
