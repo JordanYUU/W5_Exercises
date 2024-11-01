@@ -21,4 +21,4 @@ movies = ('I Am Legend',
 
 length = len(movies)
 
-print(f'The movies list include my top (lenlength')
+print(f'The "movies" list includes my top {length} movies')
