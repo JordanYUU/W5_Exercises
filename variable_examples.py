@@ -11,4 +11,12 @@ my_name = 'Jordan'
 my_state = 'Nevada'
 my_city = 'Las Vegas'
 
-#Lab 2
+
+# Lab 2
+    # True, False, and None cannot be used for variable names
+
+    # ^^global^^ - Modifies global variables
+    # ^^assert^^ - Used for debugging
+    # import - Imports modules for use
+    # pass - Placeholder; error preventer
+    # is - Checks if two variables are equal

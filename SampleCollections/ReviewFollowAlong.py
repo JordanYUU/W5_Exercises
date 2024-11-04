@@ -9,7 +9,7 @@ movies = [
 #     for i in x:
 #         print(f'{i} is a great movie')
 
-print(f'{movies[1][0]} broke my kneecaps and gave me ligma')
+print(f'\"{movies[1][0]}\" broke my kneecaps and gave me ligma')
 
 # I have created a silly script
 # This is Pythons one and only purpose

@@ -10,15 +10,21 @@
 # Get the min value from the list: min(listname)
 # Get the sum of items in list: sum(listname)
 
-movies = ('I Am Legend', 
+movies = ['I Am Legend', 
         'After Death', 
         'Soul', 
         'The Purge', 
         'Skinamarink', 
         'The Babysitter', 
         'The Babysitter 2'
-)
-
+]
+movies.append('Puss In Boots: The Last Wish')
 length = len(movies)
 
+# print(f'The "movies" list includes my top {length} movies')
+
+print(sorted(movies))
+
 print(f'The "movies" list includes my top {length} movies')
+# movies.sort()
+# print(movies)
